@@ -1,0 +1,31 @@
+{
+  "name": "agadoo",
+  "description": "shake your tree",
+  "version": "0.1.0",
+  "author": "Rich Harris",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^1.0.3",
+    "chalk": "^1.0.0",
+    "magic-string": "^0.4.7",
+    "source-map-support": "^0.2.10"
+  },
+  "main": "./dist/agadoo.js",
+  "jsnext:main": "./src/agadoo.js",
+  "bin": {
+    "agadoo": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "npm run build; mocha --inline-diffs",
+    "build": "gobble build -f dist",
+    "prepublish": "npm test"
+  },
+  "devDependencies": {
+    "gobble": "^0.7.13",
+    "gobble-babel": "^5.0.0",
+    "gobble-cli": "^0.3.5",
+    "gobble-esperanto-bundle": "^0.1.7",
+    "gobble-sorcery": "^0.2.5",
+    "mocha": "^2.2.4"
+  }
+}
