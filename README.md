@@ -1,3 +1,5 @@
+# [This idea eventually became Rollup.js – this repo is long since abandoned](rollupjs.org)
+
 # agadoo
 
 *[Ag-a-doo-doo-doo, push pineapple, shake the tree](https://www.youtube.com/watch?v=POv-3yIPSWc)*
